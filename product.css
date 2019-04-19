@@ -1,0 +1,90 @@
+body{
+    background-color: aliceblue;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.pg-title{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.item{
+    width: 44vw;
+    height: 69vh;
+}
+
+.name{
+    margin-top: 5vh;
+    font-size: 32px;
+}
+
+.description{
+    margin-top: 1vh;
+}
+
+.buy{
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    margin-top: 2vh;
+    padding: 11px;
+
+    background-color: white;
+}
+
+.b-info{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.price{
+    color: blue;
+    font-size: 20px;
+}
+
+.text{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px){
+body{
+    margin: 0px
+}
+
+.nav{
+    margin-right: 10px;
+}
+
+.item {
+    width: 68vw;
+    height: 54vh;
+ }
+
+.buy{
+    align-self: flex-end;
+    width: 83vw;
+    justify-content: flex-start;
+}
+
+ .material-icons{
+   font-size: 19px;  
+ }
+
+ .text{
+     font-size: 12px;
+ }
+}
